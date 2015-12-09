@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+    <!--
+    Use these if there is no organic bootstrap
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    -->
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Create New Student</h1> 
+    </div>
+    <div class="row">
+        <div class="col-sm-4" id="nav">
+            <input type="button" class="btngold" onclick="location.href='./index.html';" value="Log In" />
+            <input type="button" class="btngold" onclick="location.href='./about.html';" value="About" />
+            <input type="button" class="btngold" onclick="location.href='./search.html';" value="Search" />
+        </div>
+        
+        <div class="col-sm-8" id="maincont">
+
+            <FORM ACTION="./add-student-result.php" METHOD="post">
+
+                <p>assign SID some how</p>
+
+                <TABLE CLASS="table">
+                    <tr>
+                        <td><label for="studentname">Name: </label></td>
+                        <td><input type="text" name="studentName"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="schoolname">School: </label></td>
+                        <td><input type="text" name="schoolName"></td>
+                    </tr>
+                    <tr><td><INPUT TYPE=submit VALUE="  Create  "></td></tr>
+                </TABLE>
+            </FORM>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

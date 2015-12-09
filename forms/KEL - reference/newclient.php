@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<HTML>
+<BODY>
+
+
+<?php
+	include 'header.php';
+?>
+
+<FORM ACTION=insnewcli.php>
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=2>
+<TR><TD ALIGN=LEFT>First Name:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="fname" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Last Name:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="lname" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Middle Name or initial:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="mname" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Birthdate:
+</TD><TD ALIGN=LEFT><INPUT TYPE=DATE NAME="bday" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Gender:
+</TD><TD ALIGN=LEFT><INPUT TYPE=RADIO NAME="gend" VALUE="M" /> Male
+<INPUT TYPE=RADIO NAME="gend" VALUE="F" /> Female
+<INPUT TYPE=RADIO NAME="gend" VALUE="O" /> Other</TD></TR>
+
+<TR><TD ALIGN=LEFT>Address Line 1:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="ad1" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Address Line 2:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="ad2" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>City:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="city" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Island (if applicable):</TD><TD ALIGN=LEFT>
+<SELECT>
+	<OPTION VALUE=kauai>Kauai</OPTION>
+	<OPTION VALUE=oahu>O'ahu</OPTION>
+	<OPTION VALUE=hawaii>Hawaii</OPTION>
+	<OPTION VALUE=maui>Maui</OPTION>
+	<OPTION VALUE=lanai>Lanai</OPTION>
+	<OPTION VALUE=niihau>Ni'ihau</OPTION>
+	<OPTION VALUE=molokai>Molokai</OPTION>
+</SELECT></TD></TR>
+<TR><TD ALIGN=LEFT>State:
+<TD></TD>
+
+<TR><TD ALIGN=LEFT>Zip:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="zip" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Phone1:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="ph1" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Phone2:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="ph2" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Phone3:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="ph3" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Email1:
+</TD><TD ALIGN=LEFT><INPUT TYPE=EMAIL NAME="em1" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Email2:
+</TD><TD ALIGN=LEFT><INPUT TYPE=EMAIL NAME="em2" /></TD></TR>
+
+<TR><TD ALIGN=LEFT>Spouse:
+</TD><TD ALIGN=LEFT><INPUT TYPE=TEXT NAME="spouse" /></TD></TR>
+
+</TABLE>
+
+
+<INPUT TYPE=SUBMIT VALUE=" INPUT DATA " />
+
+
+</FORM>
+</BODY>
+</HTML>
